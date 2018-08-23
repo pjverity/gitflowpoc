@@ -18,7 +18,7 @@
 				<configuration>
 					<commitMessages>
 						<featureStartMessage>Updated feature branch to version @{version}</featureStartMessage>
-						<featureEndMessage>Updated feature branch to version @{version}</featureEndMessage>
+						<featureFinishMessage>Updated feature branch to version @{version}</featureFinishMessage>
 					</commitMessages>
 				</configuration>
 			</plugin>
