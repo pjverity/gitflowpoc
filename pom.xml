@@ -16,7 +16,10 @@
 				<artifactId>gitflow-maven-plugin</artifactId>
 				<version>1.10.0</version>
 				<configuration>
-					<!-- optional configuration -->
+					<commitMessages>
+						<featureStartMessage>Updated feature branch to version @{version}</featureStartMessage>
+						<featureEndMessage>Updated feature branch to version @{version}</featureEndMessage>
+					</commitMessages>
 				</configuration>
 			</plugin>
 		</plugins>
