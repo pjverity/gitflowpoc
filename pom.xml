@@ -20,6 +20,9 @@
 				<artifactId>gitflow-maven-plugin</artifactId>
 				<version>1.10.0</version>
 				<configuration>
+					<gitFlowConfig>
+						<origin/>
+					</gitFlowConfig>
 					<commitMessages>
 						<featureStartMessage>Updated feature branch to version @{version}</featureStartMessage>
 						<featureFinishMessage>Updated feature branch to version @{version}</featureFinishMessage>
