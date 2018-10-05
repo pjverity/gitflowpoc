@@ -31,7 +31,7 @@
 					</gitFlowConfig>
 					<commitMessages>
 						<featureStartMessage>Updated feature branch to version @{version}</featureStartMessage>
-						<featureFinishMessage>Updated feature branch to version @{version}</featureFinishMessage>
+						<featureFinishMessage>Resetting develop branch to version @{version}</featureFinishMessage>
 					</commitMessages>
 				</configuration>
 			</plugin>
