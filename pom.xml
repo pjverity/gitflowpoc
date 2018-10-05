@@ -40,7 +40,7 @@
 						<hotfixFinishMessage>Incremented master branch to version @{version}</hotfixFinishMessage>
 					</commitMessages>
 
-					<!-- Increment the minor version on develope after releases -->
+					<!-- Increment the minor version on develop after releases -->
 					<versionDigitToIncrement>1</versionDigitToIncrement>
 
 				</configuration>
