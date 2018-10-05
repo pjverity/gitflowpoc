@@ -37,8 +37,12 @@
 
 						<releaseStartMessage>Updated release branch to version @{version}</releaseStartMessage>
 						<releaseFinishMessage>Incremented develop branch to version @{version}</releaseFinishMessage>
+
+						<hotfixStartMessage>Updated hotfix branch to version @{version}</hotfixStartMessage>
+						<hotfixFinishMessage>Incremented master branch to version @{version}</hotfixFinishMessage>
 					</commitMessages>
 
+					<!-- Increment the minor version on develope after releases -->
 					<versionDigitToIncrement>1</versionDigitToIncrement>
 
 				</configuration>
