@@ -6,7 +6,7 @@
 
 	<groupId>uk.co.vhome</groupId>
 	<artifactId>gitflow-poc</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0-update-messages-SNAPSHOT</version>
 
 	<properties>
 		<maven.compiler.source>10</maven.compiler.source>
@@ -31,7 +31,7 @@
 					</gitFlowConfig>
 					<commitMessages>
 						<featureStartMessage>Updated feature branch to version @{version}</featureStartMessage>
-						<featureFinishMessage>Updated feature branch to version @{version}</featureFinishMessage>
+						<featureFinishMessage>Resetting develop branch to version @{version}</featureFinishMessage>
 					</commitMessages>
 				</configuration>
 			</plugin>
