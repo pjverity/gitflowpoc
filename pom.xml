@@ -31,7 +31,12 @@
 					</gitFlowConfig>
 					<commitMessages>
 						<featureStartMessage>Updated feature branch to version @{version}</featureStartMessage>
-						<featureFinishMessage>Resetting develop branch to version @{version}</featureFinishMessage>
+						<featureFinishMessage>Reset develop branch to version @{version}</featureFinishMessage>
+
+						<releaseStartMessage>Updated release branch to version @{version}</releaseStartMessage>
+						<releaseFinishMessage>Incremented develop branch to version @{version}</releaseFinishMessage>
+
+						<versionDigitToIncrement>1</versionDigitToIncrement>
 					</commitMessages>
 				</configuration>
 			</plugin>
