@@ -35,9 +35,10 @@
 
 						<releaseStartMessage>Updated release branch to version @{version}</releaseStartMessage>
 						<releaseFinishMessage>Incremented develop branch to version @{version}</releaseFinishMessage>
-
-						<versionDigitToIncrement>1</versionDigitToIncrement>
 					</commitMessages>
+
+					<versionDigitToIncrement>1</versionDigitToIncrement>
+
 				</configuration>
 			</plugin>
 		</plugins>
