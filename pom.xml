@@ -24,7 +24,7 @@
 			<plugin>
 				<groupId>com.amashchenko.maven.plugin</groupId>
 				<artifactId>gitflow-maven-plugin</artifactId>
-				<version>1.10.0</version>
+				<version>1.11.1-SNAPSHOT</version>
 				<configuration>
 					<gitFlowConfig>
 						<origin/>
@@ -39,6 +39,8 @@
 						<hotfixStartMessage>Updated hotfix branch to version @{version}</hotfixStartMessage>
 						<hotfixFinishMessage>Incremented master branch to version @{version}</hotfixFinishMessage>
 					</commitMessages>
+
+					<useSnapshotInHotfix>true</useSnapshotInHotfix>
 
 					<!-- Increment the minor version on develop after releases -->
 					<versionDigitToIncrement>1</versionDigitToIncrement>
