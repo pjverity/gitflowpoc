@@ -41,10 +41,14 @@
 					</commitMessages>
 
 					<useSnapshotInHotfix>true</useSnapshotInHotfix>
+					<useSnapshotInRelease>true</useSnapshotInRelease>
+
+					<commitDevelopmentVersionAtStart>true</commitDevelopmentVersionAtStart>
 
 					<!-- Increment the minor version on develop after releases -->
 					<versionDigitToIncrement>1</versionDigitToIncrement>
 
+					<updateDevToAvoidConflitsMessage>Test message</updateDevToAvoidConflitsMessage>
 				</configuration>
 			</plugin>
 		</plugins>
