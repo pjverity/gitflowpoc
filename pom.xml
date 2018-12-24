@@ -6,7 +6,7 @@
 
 	<groupId>uk.co.vhome</groupId>
 	<artifactId>gitflow-poc</artifactId>
-	<version>1.6.0</version>
+	<version>1.7.0</version>
 
 	<properties>
 		<maven.compiler.source>10</maven.compiler.source>
@@ -38,6 +38,8 @@
 
 						<hotfixStartMessage>Updated hotfix branch to version @{version}</hotfixStartMessage>
 						<hotfixFinishMessage>Incremented master branch to version @{version}</hotfixFinishMessage>
+
+						<updateDevToAvoidConflictsMessage>Test message</updateDevToAvoidConflictsMessage>
 					</commitMessages>
 
 					<useSnapshotInHotfix>true</useSnapshotInHotfix>
@@ -48,7 +50,6 @@
 					<!-- Increment the minor version on develop after releases -->
 					<versionDigitToIncrement>1</versionDigitToIncrement>
 
-					<updateDevToAvoidConflictsMessage>Test message</updateDevToAvoidConflictsMessage>
 				</configuration>
 			</plugin>
 		</plugins>
