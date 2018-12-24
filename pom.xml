@@ -39,7 +39,7 @@
 						<hotfixStartMessage>Updated hotfix branch to version @{version}</hotfixStartMessage>
 						<hotfixFinishMessage>Incremented master branch to version @{version}</hotfixFinishMessage>
 
-						<updateDevToAvoidConflictsMessage>Test message</updateDevToAvoidConflictsMessage>
+						<updateDevToAvoidConflitsMessage>Test message - deprecated</updateDevToAvoidConflitsMessage>
 					</commitMessages>
 
 					<useSnapshotInHotfix>true</useSnapshotInHotfix>
