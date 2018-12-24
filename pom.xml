@@ -48,7 +48,7 @@
 					<!-- Increment the minor version on develop after releases -->
 					<versionDigitToIncrement>1</versionDigitToIncrement>
 
-					<updateDevToAvoidConflitsMessage>Test message</updateDevToAvoidConflitsMessage>
+					<updateDevToAvoidConflictsMessage>Test message</updateDevToAvoidConflictsMessage>
 				</configuration>
 			</plugin>
 		</plugins>
