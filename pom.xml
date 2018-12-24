@@ -6,7 +6,7 @@
 
 	<groupId>uk.co.vhome</groupId>
 	<artifactId>gitflow-poc</artifactId>
-	<version>1.4.0</version>
+	<version>1.5.0</version>
 
 	<properties>
 		<maven.compiler.source>10</maven.compiler.source>
@@ -48,7 +48,7 @@
 					<!-- Increment the minor version on develop after releases -->
 					<versionDigitToIncrement>1</versionDigitToIncrement>
 
-					<updateDevToAvoidConflitsMessage>Test message</updateDevToAvoidConflitsMessage>
+					<updateDevToAvoidConflictsMessage>Test message</updateDevToAvoidConflictsMessage>
 				</configuration>
 			</plugin>
 		</plugins>
